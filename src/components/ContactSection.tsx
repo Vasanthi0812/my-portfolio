@@ -38,19 +38,19 @@ export default function ContactSection() {
     { 
       name: 'LinkedIn', 
       icon: Linkedin, 
-      url: 'https://linkedin.com', 
+      url: 'https://www.linkedin.com/in/meghana-vasanthi/', 
       color: 'group-hover:text-neon-blue' 
     },
     { 
       name: 'GitHub', 
       icon: Github, 
-      url: 'https://github.com', 
+      url: 'https://github.com/Vasanthi0812', 
       color: 'group-hover:text-neon-purple' 
     },
     { 
       name: 'Email', 
       icon: Mail, 
-      url: 'mailto:email@example.com', 
+      url: 'https://mail.google.com/mail/?view=cm&fs=1&to=sornapudi.vasanthi@gmail.com', 
       color: 'group-hover:text-neon-teal' 
     }
   ];
@@ -157,8 +157,8 @@ export default function ContactSection() {
                 
                 <div>
                   <h4 className="text-white/60 text-sm mb-1">Email</h4>
-                  <a href="mailto:contact@example.com" className="font-medium hover:text-neon-teal transition-colors">
-                    contact@example.com
+                  <a href="mailto:sornapudi.vasanthi@gmail.com" className="font-medium hover:text-neon-teal transition-colors">
+                    sornapudi.vasanthi@gmail.com
                   </a>
                 </div>
                 

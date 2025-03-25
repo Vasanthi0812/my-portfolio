@@ -18,40 +18,40 @@ const projects: Project[] = [
     id: 1,
     title: "MegNan Chits",
     description: "A financial management application for chit funds",
-    image: "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
-    githubUrl: "https://github.com",
+    image: "https://media.licdn.com/dms/image/v2/D5622AQFK1AJyz9_NJA/feedshare-shrink_2048_1536/B56ZSCAApcGoAo-/0/1737347829826?e=1746057600&v=beta&t=La6OY3TYyi_7yh4I1T2qWcc5EkJ4f4SBoj1XYjs7mmM",
+    technologies: ["PhP","MySQL", "Xampp","HTML","CSS","Javascript"],
+    githubUrl: "https://github.com/Vasanthi0812/sunrey-chits",
     liveUrl: "https://example.com",
-    details: "MegNan Chits is a comprehensive financial management system for chit funds. It features secure user authentication, real-time transaction tracking, and automated payment reminders. The application was built with a React.js frontend for a responsive user interface and Node.js backend with MongoDB for efficient data management."
+    details: "Developed an admin module for SUNREY CHITS to digitize their ₹5 lakh chit fund, replacing manual WhatsApp-based management with a structured system. The module allows the chit owner to register all 25 members, assign unique IDs, and systematically log monthly contributions, ensuring transparency and secure transaction records. This initiative aims to eliminate discrepancies, enhance trust, and modernize their financial operations."
   },
   {
     id: 2,
     title: "Energize-Routine",
     description: "A wellness application for daily routine management",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    technologies: ["React Native", "Firebase", "Redux", "Expo"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    details: "Energize-Routine is a mobile application designed to help users optimize their daily wellness routines. It includes features like customizable workout plans, nutrition tracking, and meditation sessions. The app was developed using React Native for cross-platform compatibility and Firebase for backend services."
+    image: "https://private-user-images.githubusercontent.com/130841184/426574783-e2c2b9e4-1121-4416-b16a-3ab8da36540d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMyNjMsIm5iZiI6MTc0MjkxMjk2MywicGF0aCI6Ii8xMzA4NDExODQvNDI2NTc0NzgzLWUyYzJiOWU0LTExMjEtNDQxNi1iMTZhLTNhYjhkYTM2NTQwZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMyNVQxNDI5MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05M2JmMTI3MjAxMjE5ZmY2ZDYzNmM4M2MxMGQwNjEzNDM1YTFkZjZiYWU4NmYwMjkzNDcyMmFkNGE2OTZiYjAwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jX7bwKlGpGREEKUl_zhsogjF5QTHDTQvo5B3OL7QNGE",
+    technologies: ["ReactJS", "Shaddcn","Typescript", "Figma", "Tailwind CSS"],
+    githubUrl: "https://github.com/Vasanthi0812/energize-routine",
+    liveUrl: "https://energize-routine.vercel.app/",
+    details: "Energize-Routine is a mobile application designed to help users optimize their daily wellness routines. It includes features like customizable workout plans, nutrition tracking, and meditation sessions. The app was developed using React JS for cross-platform compatibility."
   },
   {
     id: 3,
     title: "WiseIN",
-    description: "An AI-powered learning platform for students",
+    description: "A Job platform for students",
     image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    technologies: ["TypeScript", "Next.js", "TensorFlow.js", "PostgreSQL"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    details: "WiseIN is an intelligent learning platform that adapts to individual student needs. It uses machine learning algorithms to analyze learning patterns and provide personalized content recommendations. The platform was built with Next.js and TypeScript for optimal performance and type safety, with TensorFlow.js for the AI components."
+    technologies: ["TypeScript", "Next.js", "React.JS", "Tailwind CSS"],
+    githubUrl: "https://github.com/Vasanthi0812/wisein",
+    liveUrl: "https://www.wisein.in/",
+    details: "Contributed to the design and development of an education and recruitment platform built with React.js.Developed dynamic UI components and ensured responsive, scalable, and accessible designs.Collaborated with UX designers to implement pixel-perfect UI prototypes that aligned with industry best practices.Improved state management and API integrations, resulting in faster performance and better user interactions."
   },
   {
     id: 4,
     title: "Vaartha Press",
     description: "A multilingual news aggregation platform",
-    image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_610/https://vaartha.com/wp-content/uploads/2024/11/cropped-cropped-WhatsApp_Image_2024-11-06_at_14.56.57-removebg-preview.png.webp",
     technologies: ["WordPress", "PHP", "MySQL", "JavaScript"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/Vasanthi0812",
+    liveUrl: "https://vaartha.com/",
     details: "Vaartha Press is a news aggregation platform that collects and categorizes news from various sources in multiple languages. It features automatic translation, content categorization, and user preference tracking. The platform was developed using WordPress with custom PHP plugins for advanced functionality."
   }
 ];

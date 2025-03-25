@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
@@ -47,58 +46,53 @@ export default function Hero() {
       
       <div className="container mx-auto px-4 md:px-8 flex flex-col items-center justify-center">
         <div className="text-center mb-12">
-          <h2 className="text-xl md:text-2xl font-mono text-neon-teal mb-4 animate-fade-in opacity-0" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
-            Hello, I'm
-          </h2>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gradient mb-4 neon-glow-purple animate-fade-in opacity-0" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
+          <h2 className="text-xl md:text-2xl font-mono text-neon-teal mb-4">Hello, I'm</h2>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gradient mb-4 neon-glow-purple">
             Sornapudi Meghana Vasanthi
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 animate-fade-in opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
-            Frontend & Backend Developer
-          </p>
+          <p className="text-xl md:text-2xl text-white/80">Designer And Developer</p>
         </div>
         
         {/* 3D Card */}
-        <div 
-          ref={cardRef} 
-          className="glass-panel rounded-2xl p-8 md:p-10 max-w-xl w-full mx-auto preserve-3d transition-transform duration-200 animate-fade-in opacity-0"
-          style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
-        >
+        <div ref={cardRef} className="glass-panel rounded-2xl p-8 md:p-10 max-w-xl w-full mx-auto preserve-3d transition-transform duration-200">
           <div className="relative z-10 preserve-3d">
             <div className="flex flex-col items-center">
-              <div className="w-32 h-32 rounded-full border-2 border-neon-teal/50 mb-6 overflow-hidden preserve-3d" style={{ transform: 'translateZ(30px)' }}>
+              <div className="w-32 h-32 rounded-full border-2 border-neon-teal/50 mb-6 overflow-hidden">
                 <div className="w-full h-full bg-gradient-radial from-neon-blue/50 to-neon-purple/30 flex items-center justify-center">
-                  <span className="text-4xl">MV</span>
+                  <span className="text-4xl">SMV</span>
                 </div>
               </div>
               
-              <h3 className="text-2xl font-bold mb-1 preserve-3d" style={{ transform: 'translateZ(20px)' }}>
-                Sornapudi Meghana Vasanthi
-              </h3>
+              <h3 className="text-2xl font-bold mb-1">Sornapudi Meghana Vasanthi</h3>
               
-              <p className="text-white/70 mb-4 flex items-center preserve-3d" style={{ transform: 'translateZ(20px)' }}>
+              <p className="text-white/70 mb-4 flex items-center">
                 <span className="inline-block w-2 h-2 rounded-full bg-neon-teal mr-2 animate-pulse-glow"></span>
                 Hyderabad, Telangana
               </p>
               
-              <div className="flex space-x-4 mb-6 preserve-3d" style={{ transform: 'translateZ(25px)' }}>
-                <a href="#" className="hover:text-neon-blue transition-colors duration-300 group">
+              <div className="flex space-x-4 mb-6">
+                <a href="https://www.linkedin.com/in/meghana-vasanthi/" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors duration-300 group">
                   <Linkedin size={24} className="transition-transform duration-300 group-hover:scale-110" />
                 </a>
-                <a href="#" className="hover:text-neon-purple transition-colors duration-300 group">
+                <a href="https://github.com/Vasanthi0812" target="_blank" rel="noopener noreferrer" className="hover:text-neon-purple transition-colors duration-300 group">
                   <Github size={24} className="transition-transform duration-300 group-hover:scale-110" />
                 </a>
-                <a href="#" className="hover:text-neon-teal transition-colors duration-300 group">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sornapudi.vasanthi@gmail.com"target="_blank" rel="noopener noreferrer" className="hover:text-neon-teal transition-colors duration-300 group">
                   <Mail size={24} className="transition-transform duration-300 group-hover:scale-110" />
                 </a>
               </div>
-              
-              <button className="bg-white/10 backdrop-blur-md border border-white/20 px-6 py-2 rounded-full font-medium hover:bg-white/20 transition-all duration-300 preserve-3d" style={{ transform: 'translateZ(25px)' }}>
+
+              {/* Download Resume Button */}
+              <a 
+                href="/VASANTHI.pdf" 
+                download="Sornapudi_Meghana_Vasanthi_Resume.pdf"
+                className="bg-white/10 backdrop-blur-md border border-white/20 px-6 py-2 rounded-full font-medium hover:bg-white/20 transition-all duration-300"
+              >
                 Download Resume
-              </button>
+              </a>
             </div>
           </div>
-          
+
           {/* Card reflections */}
           <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-neon-blue/10 via-transparent to-neon-purple/10"></div>
         </div>

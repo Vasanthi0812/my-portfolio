@@ -14,45 +14,56 @@ type Experience = {
 const experiences: Experience[] = [
   {
     id: 1,
-    position: "Frontend Developer",
-    company: "Example Tech",
-    duration: "Jan 2023 - Present",
+    position: "WordPress Developer",
+    company: "Vaartha Press ",
+    duration: "Oct 2024 – Jan 2025",
     location: "Hyderabad, India",
     description: [
-      "Developed responsive web applications using React.js and TypeScript",
-      "Optimized web performance resulting in 40% faster load times",
-      "Collaborated with UI/UX team to implement design systems",
-      "Integrated RESTful APIs and implemented error handling strategies"
+      "Optimized, secured, and customized the WordPress site to enhance its performance, security, and scalability.",
+      "Resolved various technical issues and ensured minimal downtime for a seamless user experience.",
+      "Implemented custom themes and plugins to align with the company's branding and improve functionality.",
     ],
-    technologies: ["React.js", "TypeScript", "Redux", "Tailwind CSS"]
+    technologies: ["Wordpress", "MySQL", "PHP"]
   },
   {
     id: 2,
-    position: "Full Stack Developer Intern",
-    company: "Innovate Solutions",
-    duration: "Jun 2022 - Dec 2022",
-    location: "Remote",
+    position: "Frontend Developer-Intern",
+    company: "Sanshi Technologies",
+    duration: "July 2024 – Oct 2024",
+    location: "Hyderabad, Telangana",
     description: [
-      "Built an e-commerce platform using MERN stack",
-      "Designed and implemented database schemas with MongoDB",
-      "Created reusable React components for the company's design system",
-      "Contributed to backend development with Node.js and Express"
+      "Contributed to the design and development of an education and recruitment platform built with React.js.",
+      "Developed dynamic UI components and ensured responsive, scalable, and accessible designs.",
+      "Improved state management and API integrations, resulting in faster performance and better user interactions."
     ],
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript"]
+    technologies: ["React.JS", "Figma", "Tailwind CSS", "Next.js"]
   },
   {
     id: 3,
-    position: "Web Developer",
-    company: "Digital Creations",
-    duration: "Jan 2022 - May 2022",
-    location: "Hyderabad, India",
+    position: "PHP Backend Developer Intern",
+    company: "Manastik Technologies",
+    duration: "Jun 2024 – Aug 2024",
+    location: "Virtual",
     description: [
-      "Developed custom WordPress themes and plugins for clients",
-      "Created responsive layouts using HTML, CSS, and JavaScript",
-      "Optimized website performance and SEO",
-      "Implemented e-commerce solutions using WooCommerce"
+      "Led the backend development of a PHP-based healthcare application designed for dementia patients.",
+      "Designed and optimized MySQL databases for efficient data storage, retrieval, and security.",
+      "Ensured the application’s scalability and performance by implementing robust backend solutions.",
     ],
-    technologies: ["WordPress", "PHP", "JavaScript", "HTML/CSS", "WooCommerce"]
+    technologies: ["WordPress", "PHP","Mysql", "JavaScript", "HTML/CSS", ]
+  },
+  {
+    id: 4,
+    position: "Full Stack Developer Intern",
+    company: "LetsGrowMore, CodSoft, Lets Grow More, Bharat Intern ",
+    duration: "May 2023 – Jun 2023",
+    location: "Virtual",
+    description: [
+      "Developed multiple mini-projects, including:",
+      "Gained experience in frontend and backend integrations, enhancing project functionality.",
+      "Strengthened skills in problem-solving, debugging, and writing clean, maintainable code.",
+      
+    ],
+    technologies: ["WordPress", "PHP","Mysql", "JavaScript", "HTML/CSS", ]
   }
 ];
 

@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <span className="text-xl font-bold text-gradient-neon">MV</span>
+            <span className="text-xl font-bold text-gradient-neon">SMV</span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-4 md:mb-0">
@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
           
           <div className="text-white/50 text-sm">
-            © {currentYear} Sornapudi Meghana Vasanthi
+           Sornapudi Meghana Vasanthi
           </div>
         </div>
       </div>
