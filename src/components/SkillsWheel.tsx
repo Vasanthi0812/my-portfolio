@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Card, CardContent } from "@/components/ui/card";
@@ -273,15 +272,16 @@ export default function SkillsWheel() {
           
           <div className="md:col-span-4">
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              {/* Skills Wheel */}
+              {/* Skills Wheel - Fixed center positioning */}
               <div className="perspective">
                 <div className="relative mx-auto w-full max-w-md aspect-square">
                   {filterSkills(activeCategory).map((skill, index) => {
                     const totalSkills = filterSkills(activeCategory).length;
                     const angle = (index * (360 / totalSkills)) * (Math.PI / 180);
                     const radius = 140; // Adjust as needed
-                    const x = radius * Math.cos(angle) + radius;
-                    const y = radius * Math.sin(angle) + radius;
+                    const centerPoint = 150; // Fixed center point
+                    const x = radius * Math.cos(angle) + centerPoint;
+                    const y = radius * Math.sin(angle) + centerPoint;
                     
                     return (
                       <div
@@ -304,7 +304,7 @@ export default function SkillsWheel() {
                     );
                   })}
                   
-                  {/* Center circle */}
+                  {/* Center circle - Fixed positioning */}
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full neo-blur flex items-center justify-center">
                     <div className="text-gradient-neon text-lg font-bold text-center">
                       {categoryLabels[activeCategory as keyof typeof categoryLabels]}
@@ -313,7 +313,7 @@ export default function SkillsWheel() {
                 </div>
               </div>
               
-              {/* Skill Details */}
+              {/* Skill Details - Removed View Related Projects button */}
               <Card className={`transition-all duration-500 h-80 bg-transparent border-white/20 ${
                 activeSkill ? 'opacity-100' : 'opacity-40'
               }`}>
@@ -343,11 +343,7 @@ export default function SkillsWheel() {
                       
                       <p className="text-white/80">{activeSkill.description}</p>
                       
-                      <div className="mt-6">
-                        <button className="bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full text-sm font-medium hover:bg-white/20 transition-all duration-300">
-                          View Related Projects
-                        </button>
-                      </div>
+                      {/* Removed "View Related Projects" button */}
                     </>
                   ) : (
                     <div className="text-center">
